@@ -1,0 +1,54 @@
+body {
+  font-family: sans-serif;
+  background: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding: 1rem;
+  max-width: 900px;
+  margin: auto;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.auth-buttons button {
+  margin: 0.2rem;
+}
+.banner {
+  background: #eee;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+}
+form {
+  margin: 1rem 0;
+  display: flex;
+  gap: 0.5rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+}
+.img-box {
+  position: relative;
+}
+.img-box img {
+  width: 100%;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.img-box input {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  transform: scale(1.5);
+}
+aside {
+  margin-top: 2rem;
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+}
